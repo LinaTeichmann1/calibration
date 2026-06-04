@@ -1,8 +1,8 @@
 import json
 import pandas as pd
 
-jsonl_file = "./outputs/20260525/measured_rgbs.jsonl"
-output_file = "./outputs/20260525/measured_rgbs.csv"
+jsonl_file = "../outputs/20260604/measured_rgbs.jsonl"
+output_file = "../outputs/20260604/measured_rgbs.csv"
 
 # Read JSONL file
 records = []
