@@ -1,0 +1,1 @@
+This calibration was done in the MEG lab. The VPIXX was set at 25% brightness. The whitepoint seemed off. 
