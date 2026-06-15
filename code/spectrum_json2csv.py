@@ -1,8 +1,15 @@
 import json
 import pandas as pd
+from datetime import datetime
 
-jsonl_file = "../outputs/20260604/measured_rgbs.jsonl"
-output_file = "../outputs/20260604/measured_rgbs.csv"
+# check when this was measured
+measurement_date = None
+if measurement_date==None:
+    today = datetime.today().strftime('%Y%m%d')
+else:
+    today = measurement_date
+jsonl_file = f"../outputs/{today}/measured_rgbs.jsonl"
+output_file = f"../outputs/{today}/measured_rgbs.csv"
 
 # Read JSONL file
 records = []

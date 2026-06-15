@@ -3,7 +3,7 @@ import time
 import matplotlib.pyplot as plt
 from PR670_LT import PR670
 
-port = "COM7"
+port = "COM3"
 pr = PR670(port)
 
 pr.startRemoteMode()

@@ -134,6 +134,7 @@ def save_XYZ(XYZ_to_RGB_matrix,XYZ_w,XYZ_w_norm,XYZ_k,savepath='../outputs/',mea
 ###**********************************
 measurement_date = None
 averaged_data = avg_primary_measures(measurement_date=measurement_date)
+print(averaged_data)
 XYZ_to_RGB_matrix,XYZ_w,XYZ_w_norm,XYZ_k = get_XYZ(averaged_data)
 save_XYZ(XYZ_to_RGB_matrix,XYZ_w,XYZ_w_norm,XYZ_k,savepath='../outputs/',measurement_date=measurement_date)
 
