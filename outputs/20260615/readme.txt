@@ -1,1 +1,2 @@
-This calibration was done at the BBL EEG lab. The VPIXX OLED was used in research mode. The room was dark
+This calibration was done at the BBL EEG lab. The VPIXX OLED was used in research mode. The room was dark. 
+NOTE: This calibration is INVALID as we noticed late than night mode was activated!!! 
